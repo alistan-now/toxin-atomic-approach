@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid rgba(31, 32, 65, 0.25);
+  border-bottom: 1px solid rgba(31, 32, 65, 0.25);
+}
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+}
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 101px;
+}
+.footer__info,
+.footer__subscribe {
+  width: 100%;
+  max-width: 260px;
+}
+.p {
+  margin-top: 20px;
+}
+.footer__input {
+  margin-top: 20px;
+}
+.footer__base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.footer__link {
+  text-decoration: none;
+  margin-left: 20px;
+}

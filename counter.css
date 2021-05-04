@@ -1,0 +1,27 @@
+.selection-counter {
+  width: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selection-counter__button {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(31, 32, 65, 0.5);
+  background-color: white;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.selection-counter__button:focus {
+  outline: none;
+}
+.selection-counter__button--active:hover {
+  color: #bc9cff;
+  border: 1px solid#bc9cff;
+}
+.selection-counter__button--disabled {
+  opacity: 50%;
+}

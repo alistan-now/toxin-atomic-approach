@@ -1,0 +1,19 @@
+.header,
+.main,
+.footer {
+  width: 100%;
+}
+.header {
+  background-color: black;
+  height: 380px;
+}
+.main {
+  background-color: grey;
+  height: 1440px;
+}
+.footer {
+  background-color: yellow;
+  height: 80px;
+  position: sticky;
+  bottom: 0;
+}

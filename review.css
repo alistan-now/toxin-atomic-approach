@@ -1,0 +1,25 @@
+.review {
+  max-width: 711px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.profile__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.profile__name {
+  font-weight: bold;
+}
+.profile__avatar {
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 10px 20px rgba(31, 32, 65, 0.1));
+  border-radius: 32px;
+  margin-right: 10px;
+}

@@ -1,0 +1,64 @@
+.button-container {
+  width: 100%;
+  max-width: 380px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.button {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.button:focus {
+  outline: none;
+}
+.button-text {
+  background: none;
+  border: none;
+  color: #bc9cff;
+}
+.button-text:hover {
+  color: rgba(31, 32, 65, 0.5);
+}
+.button-plate {
+  padding: 14px 20px 14px 20px;
+  border: none;
+  border-radius: 22px;
+}
+.button-wide {
+  position: relative;
+  width: 100%;
+}
+.button-wide::after {
+  content: "";
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url("img/arrow_forward.svg") no-repeat center;
+}
+.button-filled {
+  color: white;
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+.button-filled:hover {
+  opacity: 0.5;
+}
+.button-ghost {
+  color: #bc9cff;
+  background-color: transparent;
+  border: 2px solid #bc9cff;
+}
+.button-ghost:hover {
+  opacity: 0.5;
+}

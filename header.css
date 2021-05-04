@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  max-width: 1440px;
+}
+.header__container {
+  display: flex;
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  align-items: center;
+}
+.header__logo-block {
+  width: 33%;
+  max-width: 390px;
+}
+.header__info-block {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.header__link {
+  margin-left: 20px;
+}
+.header__link:first-child {
+  font-weight: bold;
+}
+.header__link_arrowed {
+  margin-right: 20px;
+}
+.header__link_arrowed:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: url("img/expand_more.svg") no-repeat center;
+  margin-right: 10px;
+}
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

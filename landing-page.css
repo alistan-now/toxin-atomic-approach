@@ -1,0 +1,16 @@
+.landing-main {
+  background: url("img/landing-bg.png") no-repeat center;
+}
+.landing-container {
+  width: 100%;
+  max-width: 1160px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 18px;
+}
+.landing__description {
+  text-align: right;
+  width: 297px;
+  margin-top: 320px;
+  margin-left: auto;
+}
